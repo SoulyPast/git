@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Vocales</title>
+
+    <script type="text/javascript">
+
+        var text = prompt("Introduzca una palabra o texto");
+        var ContarA= 0;
+        var ContarE= 0;
+        var ContarI= 0;
+        var ContarO= 0;
+        var ContarU= 0;
+        for (var i = 0 ; i < text.length ; i++) {
+            switch(text.charAt(i)) {
+                case "a":
+                    ContarA++;
+                    break;
+                case "e":
+                    ContarE++;
+                    break;
+                case "i":
+                    ContarI++;
+                    break;
+                case "o":
+                    ContarO++;
+                    break;
+                case "u":
+                    ContarU++;
+                    break;
+
+            }
+        }
+
+        document.write( "A: " +  ContarA + "<br>E: " + ContarE + "<br>I: " +  ContarI + "<br>O: " + ContarO + "<br>U: " +
+            ContarU);
+
+
+    </script>
+
+
+
+</head>
+<body>
+
+</body>
+</html>
